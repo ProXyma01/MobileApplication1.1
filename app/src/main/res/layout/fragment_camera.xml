@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- Camera Preview -->
+    <TextureView
+        android:id="@+id/texture_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Capture Button -->
+    <ImageButton
+        android:id="@+id/btn_capture"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/ic_capture_button"
+        android:contentDescription="capture_button"
+        android:scaleType="centerInside" />
+
+    <!-- Switch Camera Button -->
+    <ImageButton
+        android:id="@+id/btn_switch_camera"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end|top"
+        android:layout_margin="16dp"
+        android:background="@drawable/ic_switch_camera"
+        android:contentDescription="switch_camera_button"
+        android:scaleType="centerInside" />
+
+    <!-- Flash Toggle Button -->
+    <ImageButton
+        android:id="@+id/btn_flash_toggle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start|top"
+        android:layout_margin="16dp"
+        android:background="@drawable/ic_flash_toggle"
+        android:contentDescription="flash_toggle_button"
+        android:scaleType="centerInside" />
+
+</FrameLayout>
